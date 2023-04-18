@@ -85,7 +85,7 @@ def preprocess_text(reviews):
 
 
 # title of our steamlit page
-original_title = '<p style=" font-family:cursive; color:yellow; font-size: 59px;">Movie Review Sentiment Analysis</p>'
+original_title = '<p style=" text-align: center;font-family:cursive; color:yellow; font-size: 59px;">Movie Review Sentiment Analysis</p>'
 st.markdown(original_title, unsafe_allow_html=True)
 original_title = '<p style="text-align: center; font-family:arial; color:white; font-size: 50px;"><b>AIP - Group D6</b></p>'
 st.markdown(original_title, unsafe_allow_html=True)
@@ -197,7 +197,7 @@ def my_widget(key):
     image = Image.open('/Users/pratikdomadiya/Desktop/Jupyter Codes/project_AIP/project images/Screenshot 2023-03-26 at 7.46.43 PM.png')
     new_image = image.resize((125, 125))
     st.image(new_image, caption='Developed by')
-    st.markdown("Play around with this excellent Movie review sentiment analysis tool which help you to keep a close eye on your brand’s reputation, find out what is right or wrong about your business, and understand more about your customers")
+    st.markdown("Play around with this excellent Movie review sentiment analysis tool which help you to keep a close eye on your brand’s reputation, find out what is right or wrong about your business, and understand more about your customers...")
     
     st.subheader("AIP - Group D6")
     st.subheader("Mentor : Prof. Jagmohan Dutta")
@@ -280,6 +280,7 @@ if submit and user_input:
     # if col3.button("😐 Not Sure!!"):
     #     st.write("not sure")
 
+
     print("---------------------submit ---------------------")
 
     
@@ -346,3 +347,5 @@ else:
     form.text('Enter Some Text First Please!!!')
     
 
+
+# %%
