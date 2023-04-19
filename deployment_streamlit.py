@@ -32,6 +32,7 @@ def preprocess_text(reviews):
         # Convert review to lowercase
         review = review.lower()
         
+        
         # Code to remove the Hashtags from the text
         review=re.sub(r'\B#\S+','',review)
         # Code to remove the links from the text
